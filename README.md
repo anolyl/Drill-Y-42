@@ -1,59 +1,27 @@
-![Drill Y-42](.github/pictures/logo.png)
-[Download on itch](https://s4g.itch.io/drill) -
-[Project Page](https://mondanzo.de/#drilly42)
+# Drill Y-42
+- Homepage: https://s4g.itch.io/drilly-42
 
-# About
+**3D First-Person endless runner made in Unity 2022.3.1f1.**
 
-In this steampunk themed endless runner, you explore a long forgotten mine and pierce your way deeper through the tunnels with a gigantic drill machine. But beware: the tunnel is collapsing behind you! Gather resources, craft upgrades and keep your drill running before you get buried. Oh, and say hello to old George Crocker if you meet him.
+In Drill Y-42, you explore a mine on long distance, theoretically endless, with a gigantic drill your ancestor left you with. While approaching your way forward, the wall behind you will keep collapsing. So make your haste and get through the mine as deep as you can!
 
-## Key Informations:
-Engine: Unity 2022.3.1f1
+## Gameplay
+- Mine your way forward!
+ - Use your gauntlet to mine resources off the side-caves.
+ - Use the drill to mine your way forward, fuel it with crystals!
+- Upgrade your...
+ - Drill, make it faster!
+ - Yourself, improve your mining speed and strength for even quicker farming.
+- Get through as deep as possible! 
+ - The mine is **endless**, get as deep as you can and build up your personal high score!
 
-Team Size: 9 people
+## Roles
+- Engineer, Gameplay Programmer, UI Programmer
 
-Platform: PC
+## Engine / Language
+- Unity 2022.3.1f1, C#
 
-Genre: Endless Runner with Resource Management
-
-Participation Duration: 10 weeks
-
-Release: 16.08.2023
-
-Number of Players: Single Player
-
-# Role in the team
-
-- **Lead Engineer**
-- Procedural Generation
-- Tool Programming
-- UI Programmer
+## Responsibilities
+- Gameplay Programming
+- Ingame UI
 - Profiling
-
-# Tasks in the project
-
-- Profiling, Debugging and Performance Optimisation
-- [Tutorial System](Assets/Scripts/Runtime/Tutorial)
-- [Cave Generation](Assets/Scripts/Runtime/Cave%20Generation)
-- [Global Event System](Assets/Scripts/Runtime/Events)
-- UI Menu Programming
-- [Subtitle System](Assets/Scripts/Runtime/Story/Subtitles)
-- Tool Programming
-  - [Perforce Ignore Plugin](Assets/Plugins/Perforce+)
-  - [Subtitle Editor](Assets/Scripts/Editor/Subtitles)
-- FMOD Integration
-- Smaller Gimmicks
-  - [Screenshake](Assets/Scripts/Runtime/CameraShake)
-
-# Learnings taken
-
-- Generation needs a lot of planning.
-  - Do not rely on physics engine for generation.
-- Really rely on either FMOD or Unity Sound, try not to mix them.
-- First work experience with Perforce.
-- Generation is very intensive and should either be hidden behind loading or very quickly very fast very parallel.
-
-# Screenshots
-
-![](.github/pictures/screenshot_1.png)
-![](.github/pictures/screenshot_2.png)
-![](.github/pictures/screenshot_3.png)
